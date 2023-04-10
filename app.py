@@ -8,11 +8,11 @@ def homepage():
 
 @app.route("/contatos")
 def contatos():
-    return render_template("contatos.html")
+    return render_template("contato.html")
 
 @app.route("/quem_somos")
 def quem_somos():
-    return render_template("quem_somos.html")
+    return render_template("quem.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
