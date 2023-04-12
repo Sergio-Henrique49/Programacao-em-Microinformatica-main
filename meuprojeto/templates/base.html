@@ -8,15 +8,18 @@
     <title>Contato</title> 
     <link rel="stylesheet" href="static/css/normalize.css">
     <link rel="stylesheet" href="static/css/home.css">
-    <body background="static/imagens/fundo2.png"></body>
+    <body {%block bg%}
+    {%endblock%}></body>
 
 </head>
 <body>
-    <div class="logo">
-    <img src="static/imagens/logo.png" alt="logo">
+    <div class="topo">
+        <div class="logo">
+        <img src="static/imagens/logo.png" alt="logo">
+        </div>
     </div>
     <div class="links">
-    <a href="home">Home |</a> 
+    <a href="/">Home |</a> 
     <a href="quem_somos">Quem Somos |</a>
     <a href="contatos">Contatos</a>
     </div>

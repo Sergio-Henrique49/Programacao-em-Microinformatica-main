@@ -1,13 +1,19 @@
-body {margin: auto;
-    padding: 40;
-    width: 60%;}
-.topo {display: flex;
-    align-items: center;
-    justify-content: flex-start;}
-.links {display:flex;
+body    {margin: auto;
+        padding: 40;
+        width: 60%;}
+
+.topo   {display: flex;
+        align-items: center;
+        justify-content: flex-start;}
+
+.links  {display:flex;
         justify-content: flex-end;}
-.capa{padding-top: 1%;
-    text-align: center;}
-.logo{padding-top: 2%;}
-h4 {text-align: center;}
-#ho {text-align: right;}
+
+.capa   {padding-top: 1%;
+        text-align: center;}
+
+.logo   {padding-top: 2%;}
+
+h4      {text-align: center;}
+
+#ho     {text-align: right;}
