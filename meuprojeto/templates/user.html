@@ -1,3 +1,9 @@
-{% for user in userDetails %} {% endfor %}
-E-mail	Assunto	Descrição
-{{user[0]}}	{{user[1]}}	{{user[2]}}
+{% for user in userDetails %} 
+<tbody>
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+    </tr>
+</tbody>
+{% endfor %}
